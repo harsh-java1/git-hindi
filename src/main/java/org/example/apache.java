@@ -7,5 +7,10 @@ public class apache {
         super.finalize();
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
+
     ;
 }
