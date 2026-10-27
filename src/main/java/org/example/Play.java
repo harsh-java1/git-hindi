@@ -10,5 +10,7 @@ public class Play {
     public void setId(int id) {
         this.id = id;
     }
-    public String getName() {}
+    public String getName() {
+        return name;
+    }
 }
