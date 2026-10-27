@@ -12,5 +12,14 @@ public class apache {
         return super.equals(obj);
     }
 
-    ;
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
+    @Override
+    public String toString() {
+        return super.toString();
+    }
+
+    public static void main(String[] args) {}
 }
